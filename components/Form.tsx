@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image'
 import React, { FormEvent, useState } from 'react'
 import { z } from 'zod'
