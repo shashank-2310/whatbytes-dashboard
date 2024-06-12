@@ -1,3 +1,4 @@
+"use client"
 import { Divider } from 'antd';
 import Image from 'next/image'
 import { useSearchParams } from 'next/navigation';

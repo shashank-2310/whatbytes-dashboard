@@ -1,3 +1,4 @@
+"use client"
 import { Progress } from 'antd'
 import { useSearchParams } from 'next/navigation'
 import React from 'react'

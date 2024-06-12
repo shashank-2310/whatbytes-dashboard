@@ -1,3 +1,4 @@
+"use client"
 import { useSearchParams } from 'next/navigation';
 import { LineChart, Line, XAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 const PercentileLineChart = () => {
