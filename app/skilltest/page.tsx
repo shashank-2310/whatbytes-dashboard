@@ -1,4 +1,3 @@
-"use client"
 import React from 'react'
 import SkillsHome from '@/components/SkillsHome';
 import ProgressBars from '@/components/ProgressBars';

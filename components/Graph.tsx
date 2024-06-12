@@ -8,8 +8,6 @@ const Graph = () => {
 
     const searchParams = useSearchParams();
     const percentile: number = parseInt(searchParams.get('percentile') as string) || 30;
-    const currentScore: number = parseInt(searchParams.get('currentScore') as string) || 10;
-    const rank: number = parseInt(searchParams.get('rank') as string) || 1;
 
     return (
         <div className="border-2 border-gray-200 rounded-lg p-3 lg:p-5 flex-between flex-col lg:flex-row gap-2 lg:gap-5 w-fit lg:w-max">
